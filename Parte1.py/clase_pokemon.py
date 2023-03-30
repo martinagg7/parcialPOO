@@ -68,8 +68,8 @@ class Pokemon:
 
     #fight_attack
         def atacar(self, pokemon,pokemon_a_atacar):
-            if self.esta_vivo()==True:
-                if pokemon_a_atacar.esta_vivo()==True:
+            if self.esta_vivo()==True:#si el pokemon que ataca esta vivo
+                if pokemon_a_atacar.esta_vivo()==True:#si el pokemon que ataca esta vivo
                     if self.Tipo_arma=="codazo":
                         pokemon_a_atacar.Puntos_salud=pokemon_a_atacar.Puntos_salud-(self.Indice_ataque*self.daño_cada_arma())
                         print("El pokemon",pokemon.Nombre,"ha atacado al pokemon",pokemon_a_atacar.Nombre,"y le ha quitado",self.Indice_ataque*self.daño_cada_arma(),"puntos de salud")
