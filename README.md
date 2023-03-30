@@ -1,7 +1,7 @@
 # parcialPOO
-parcial poo
+parcial poo 22/23
 # Datos
-link_repositorio/nombre_usuario:martinagg7
+link_repositorio:https://github.com/martinagg7/parcialPOO.git /nombre_usuario:martinagg7
 # Explicacion 
 
 -->Diagramas de flujo pedidos:se encuentran en el apartado diagramas de flujo
